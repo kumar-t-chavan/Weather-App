@@ -1,0 +1,64 @@
+/* weather.css */
+
+/* Main page background */
+.main {
+    background-color: rgb(19, 12, 12);
+    min-height: 92vh;  /* pura screen height */
+    padding: 20px; 
+    display: grid;
+    place-items: center;     /* top-left thoda space */
+}
+.errorpage{
+    display: grid;
+    place-items: center;
+
+    p{
+        font-weight: bold;
+        font-size: large;
+    }
+}
+/* Container holding input and data */
+.conatiner {
+    display: block;      /* top-left alignment ke liye */
+    max-width: 400px; 
+    /* input box ka size fix */
+}
+
+/* Input box container */
+.inputs {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Input field styling */
+input {
+    width: 82%;
+    padding: 10px 50px 10px 10px; /* right padding search icon ke liye */
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Search icon inside input */
+.img img {
+    position: absolute;
+    top: 25px;       /* input ke height ke according */
+    right: 15px;     /* input ke andar right side */
+    cursor: pointer;
+}
+
+/* Data display box */
+.data {
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.data h2 {
+    margin: 5px 0;
+    color: #333;
+    font-size: 18px;
+}
